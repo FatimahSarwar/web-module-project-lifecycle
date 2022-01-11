@@ -1,5 +1,6 @@
 import React from 'react';
-
+import User from './components/User'
+import Follower from './components/Follower';
 class App extends React.Component {
 
   
@@ -10,10 +11,8 @@ class App extends React.Component {
        <input />
        <button>Search</button>
      </form>
-     <img src = "https://avatars.githubusercontent.com/u/91710091?v=4" />
-     <a href = "https://github.com/FatimahSarwar"><h2>Fatimah Sarwar</h2></a>
-     <h3>Total Repos: 32</h3>
-     <h3>Total followers:</h3>
+     <User />
+   <Follower />
     </div>);
   }
 }
